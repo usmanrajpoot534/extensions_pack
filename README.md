@@ -143,7 +143,7 @@ Text(
 
 ## Example Project
 
-Check out the [example project](https://github.com/yourusername/extensions_pack_example) to see these extensions in action.
+Check out the [example project](https://github.com/usmanrajpoot534/extensions_pack/tree/master/example) to see these extensions in action.
 
 ## Contribution
 
