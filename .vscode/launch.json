@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "extensions_pack",
+            "name": "flutter_extensions_pack",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "extensions_pack (profile mode)",
+            "name": "flutter_extensions_pack (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "extensions_pack (release mode)",
+            "name": "flutter_extensions_pack (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

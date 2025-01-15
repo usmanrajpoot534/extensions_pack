@@ -1,4 +1,4 @@
-library extensions_pack;
+library flutter_extensions_pack;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

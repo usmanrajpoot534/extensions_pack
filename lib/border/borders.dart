@@ -1,4 +1,4 @@
-part of 'package:extensions_pack/extensions_pack.dart';
+part of 'package:flutter_extensions_pack/flutter_extensions_pack.dart';
 
 /// Border radius utilities.
 extension BorderExtension on num {

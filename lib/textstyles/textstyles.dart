@@ -1,4 +1,4 @@
-part of 'package:extensions_pack/extensions_pack.dart';
+part of 'package:flutter_extensions_pack/flutter_extensions_pack.dart';
 
 /// Adds text styles for easy usage.
 extension TextStyles on BuildContext {

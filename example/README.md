@@ -1,7 +1,7 @@
 # example
 
-An Example project of extensions_pack.
+An Example project of flutter_extensions_pack.
 
 ## Getting Started
 
-This project is a basic use of extensions_pack.
+This project is a basic use of flutter_extensions_pack.

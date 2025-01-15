@@ -21,7 +21,7 @@ Add the following line to your `pubspec.yaml` under `dependencies`:
 
 ```yaml
 dependencies:
-  extensions_pack: ^1.0.0
+  flutter_extensions_pack: ^1.0.0
 ```
 
 Run `flutter pub get` to fetch the package.
@@ -143,7 +143,7 @@ Text(
 
 ## Example Project
 
-Check out the [example project](https://github.com/usmanrajpoot534/extensions_pack/tree/master/example) to see these extensions in action.
+Check out the [example project](https://github.com/usmanrajpoot534/flutter_extensions_pack/tree/master/example) to see these extensions in action.
 
 ## Contribution
 
