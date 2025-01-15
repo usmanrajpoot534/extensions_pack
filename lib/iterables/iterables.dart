@@ -13,13 +13,24 @@ extension SortList<E> on List<E> {
   /// print(list.sortAscending); // Output: ['Alisa', 'John', 'Maria']
   /// ```
   List<E> get sortAscending {
-    if (E is num) {
+    final isNumeric = this is List<num> ||
+        this is List<num?> ||
+        this is List<int> ||
+        this is List<int?> ||
+        this is List<double> ||
+        this is List<double?>;
+
+    final isStringish = this is List<String> || this is List<String?>;
+
+    if (isNumeric) {
       sort();
-    }
-    if (E is String) {
+      return this;
+    } else if (isStringish) {
       sort((a, b) => (a as String).length.compareTo((b as String).length));
+      return this;
+    } else {
+      throw UnsupportedError("Type $E is not supported for sorting.");
     }
-    return this;
   }
 
   /// Sorts in descending order.
@@ -33,10 +44,19 @@ extension SortList<E> on List<E> {
   /// print(list.sortDescending); // Output: ['Maria', 'John', 'Alisa']
   /// ``````
   List<E> get sortDescending {
-    if (E is num) {
+    final isNumeric = this is List<num> ||
+        this is List<num?> ||
+        this is List<int> ||
+        this is List<int?> ||
+        this is List<double> ||
+        this is List<double?>;
+
+    final isStringish = this is List<String> || this is List<String?>;
+
+    if (isNumeric) {
       sort((a, b) => (b as num).compareTo(a as num));
     }
-    if (E is String) {
+    if (isStringish) {
       sort((a, b) => (b as String).length.compareTo((a as String).length));
     }
     return this;

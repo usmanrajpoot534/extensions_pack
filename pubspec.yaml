@@ -1,7 +1,7 @@
 name: extensions_pack
 description: "A comprehensive Dart extensions package designed to simplify and enhance Flutter development. This package introduces utilities for padding, spacing, border radius, date-time operations, string manipulation, and much more"
 version: 1.0.0
-homepage:
+homepage: https://github.com/usmanrajpoot534/extensions_pack
 
 environment:
   sdk: ^3.5.4
